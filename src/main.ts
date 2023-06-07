@@ -8,7 +8,6 @@ console.log(
 )
 
 //Create an object variable
-
 const aboutMe = {
   fullName: 'Dino Ribeiro',
   luckyNumber: 11,
@@ -20,6 +19,17 @@ const aboutMe = {
 }
 
 //Practice getting input from user
-
 const userName = window.prompt('Please enter your name:')
 console.log(`Hello, ${userName}!`)
+
+//Converting string input into numbers
+const firstOperand = Number(window.prompt('Enter the first number:'))
+const secondOperand = Number(window.prompt('Enter the second number'))
+
+//Doing math
+const sum = firstOperand + secondOperand
+const difference = firstOperand - secondOperand
+const product = firstOperand * secondOperand
+const remainder = firstOperand % secondOperand
+
+console.log(`The sum of ${firstOperand} and ${secondOperand} is ${sum}`)
